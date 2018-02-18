@@ -1,0 +1,169 @@
+body {
+	/*background: red;*/
+	background-image: url("glitch.jpg");
+    height: 100%; 
+    background-size: cover;
+}
+
+body * {
+	font-family: 'Roboto Condensed', sans-serif;
+	 
+}
+
+label,h1,h2,h3,h4,h5 {
+	font-weight: normal;
+	margin: 0;
+	color:#fff;
+    font-size: 3.2em;
+}
+
+p{
+	color: #010101;
+}
+
+a, a:hover, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#logo {
+	width: 710px;
+    height: 710px;
+}
+
+.wrapper{
+	max-width: 990px;
+	margin: 50px auto;
+}
+
+div.wrapper h1 {
+	text-align: center;
+	margin: 25px auto;
+	font-size: 5.4em;
+}
+
+div.wrapper #messy{
+	text-align: center;
+	margin: 10px auto;
+	color:#fff;
+	font-size: 3.4em;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 20px 0;
+}
+
+nav{
+	justify-self: end;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav button {
+	background: none;
+	color: #fff;
+	cursor: pointer;
+	border: 0;
+	font-size: 1em;
+}
+
+.articles {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.article {
+	padding: 10px;
+	position: relative;
+	padding-bottom: 40px;
+	background: #01ffff;
+}
+
+.article h2 {
+	font-size: 1.2em;
+}
+
+.article .author{
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	color: #fff;
+}
+
+.article-detail .article {
+	padding: 0;
+}
+
+.article-detail .article img{
+	max-width: 50px;
+}
+
+.article-detail .article-h2{
+	text-align: center;
+	margin: 20px auto;
+	font-size: 2em;
+}
+
+.article-detail .article p{
+	text-align: center;
+}
+
+.site-form {
+	margin-top: 60px;
+	padding: 20px;
+}
+
+.site-form input, .site-form textarea {
+	display: block;
+	margin: 0px 0 15px 0;
+	padding: 10px;
+ }
+
+a.highlight{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.helptext, .helpttext ul{
+	margin: 0 auto 20px;
+	color: #01ffff;
+	font-size: 1em;
+	display: block;
+}
+
+.errorlist li{
+	padding: 10px;
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+.errorlist {
+	padding: 0;
+}
+
+.site-form input[type="submit"] {
+	background-color: #04fe00;
+	color: #010101;
+	font-size: 1.2em;
+ 	margin: 10px 0;
+}
+
+form.label {
+	color: #fff;
+}
+
+.button {
+	background-color: #01ffff;
+	color:#010101;
+	font-size: 1.2em;
+    margin: 10px 0;
+}
+
